@@ -1,0 +1,52 @@
+/* Welcome visitor! Please let me know if you have any suggestions on how to make my code
+
+     prettier! And if you like anything you see here, just let me know and i can give it to you!
+
+     Collaboration is the essence of computer science and technology!
+
+                                                              Hersh Patel, phersh05@gmail.com
+*/
+
+/* Basic */
+
+	body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* BG */
+	@-moz-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-300px,0,0); -webkit-transform: translate3d(-300px,0,0); -o-transform: translate3d(-300px,0,0); -ms-transform: translate3d(-300px,0,0); transform: translate3d(-300px,0,0); } }
+	@-webkit-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-300px,0,0); -webkit-transform: translate3d(-300px,0,0); -o-transform: translate3d(-300px,0,0); -ms-transform: translate3d(-300px,0,0); transform: translate3d(-300px,0,0); } }
+	@-o-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-300px,0,0); -webkit-transform: translate3d(-300px,0,0); -o-transform: translate3d(-300px,0,0); -ms-transform: translate3d(-300px,0,0); transform: translate3d(-300px,0,0); } }
+	@-ms-keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-300px,0,0); -webkit-transform: translate3d(-300px,0,0); -o-transform: translate3d(-300px,0,0); -ms-transform: translate3d(-300px,0,0); transform: translate3d(-300px,0,0); } }
+	@keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-300px,0,0); -webkit-transform: translate3d(-300px,0,0); -o-transform: translate3d(-300px,0,0); -ms-transform: translate3d(-300px,0,0); transform: translate3d(-300px,0,0); } }
+
+	#bg {
+		background-size: 300px auto;
+		width: 900px;
+	}
+
+/* Header */
+
+	#header h1 {
+		font-size: 1.3em;
+	}
+
+	#header p {
+		font-size: 1em;
+	}
+
+	#header nav {
+		font-size: 1em;
+	}
+
+		#header nav a:hover {
+			font-size: 1em;
+		}
+
+		#header nav a:active {
+			font-size: 1em;
+		}
